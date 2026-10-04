@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .glow-orange {
+    box-shadow: 0 0 15px rgba(249, 115, 22, 0.4);
+  }
+  .glow-purple {
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.4);
+  }
+}
+
+body {
+  background-color: #030712;
+  color: #f3f4f6;
+  font-family: system-ui, -apple-system, sans-serif;
+}

@@ -1,0 +1,104 @@
+{
+  "tournamentName": "October Madness: Spooktacular Superfight",
+  "activeRound": "Sweet Sixteen",
+  "votingDeadline": "2026-10-21T23:59:59",
+  "activeVotingUrl": "https://forms.google.com",
+  "votingIsOpen": true,
+  "rounds": [
+    {
+      "id": "sweet-16",
+      "name": "Sweet Sixteen",
+      "dates": "Oct 16 – Oct 21",
+      "matchups": [
+        {
+          "id": "m1",
+          "fighterAId": "jack-o-lantern",
+          "fighterBId": "dracula",
+          "votesA": 0,
+          "votesB": 0,
+          "winnerId": null,
+          "location": "Haunted Graveyard"
+        },
+        {
+          "id": "m2",
+          "fighterAId": "frankenstein",
+          "fighterBId": "mummy",
+          "votesA": 0,
+          "votesB": 0,
+          "winnerId": null,
+          "location": "Abandoned Laboratory"
+        }
+      ]
+    },
+    {
+      "id": "elite-8",
+      "name": "Elite Eight",
+      "dates": "Oct 22 – Oct 25",
+      "matchups": []
+    },
+    {
+      "id": "final-4",
+      "name": "Final Four",
+      "dates": "Oct 26 – Oct 29",
+      "matchups": []
+    },
+    {
+      "id": "championship",
+      "name": "Championship",
+      "dates": "Oct 30 – Oct 31",
+      "matchups": []
+    }
+  ],
+  "fighters": [
+    {
+      "id": "jack-o-lantern",
+      "name": "A Jack-o'-Lantern",
+      "status": "Main Bracket",
+      "votes": 3,
+      "bio": "Flickering carved pumpkin armed with explosive embers.",
+      "attributes": ["Illumination Hazard", "Explosive Seeds"],
+      "image": "🎃"
+    },
+    {
+      "id": "dracula",
+      "name": "Count Dracula",
+      "status": "Main Bracket",
+      "votes": 5,
+      "bio": "Ancient vampire with bat shape-shifting abilities.",
+      "attributes": ["Life Drain", "Flight"],
+      "image": "🦇"
+    },
+    {
+      "id": "frankenstein",
+      "name": "Frankenstein's Monster",
+      "status": "Main Bracket",
+      "votes": 4,
+      "bio": "Reanimated titan driven by high-voltage lightning.",
+      "attributes": ["Superhuman Strength", "Electric Charge"],
+      "image": "🧟"
+    },
+    {
+      "id": "mummy",
+      "name": "Ancient Mummy",
+      "status": "Main Bracket",
+      "votes": 2,
+      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
+      "attributes": ["Sandstorm", "Curse of the Tomb"],
+      "image": "🏺"
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc-1",
+      "name": "Haunted Graveyard",
+      "hazard": "Fog of Despair: Reduces vision to 5 feet.",
+      "status": "Approved"
+    },
+    {
+      "id": "loc-2",
+      "name": "Abandoned Laboratory",
+      "hazard": "Exposed Wiring: Periodic lightning strikes every 30 seconds.",
+      "status": "Approved"
+    }
+  ]
+}
