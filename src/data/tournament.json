@@ -12,6 +12,7 @@
       "matchups": [
         {
           "id": "m1",
+          "matchTitle": "The Heavyweight vs The Underdog",
           "fighterAId": "dracula",
           "fighterBId": "carlos",
           "votesA": 0,
@@ -21,8 +22,9 @@
         },
         {
           "id": "m2",
+          "matchTitle": "The Heavyweight vs The Underdog",
           "fighterAId": "werewolf",
-          "fighterBId": "mad_scientest",
+          "fighterBId": "mad_scientist",
           "votesA": 0,
           "votesB": 0,
           "winnerId": null,
@@ -30,6 +32,7 @@
         },
         {
           "id": "m3",
+          "matchTitle": "The Heavyweight vs The Underdog",
           "fighterAId": "frankinstein",
           "fighterBId": "ghost",
           "votesA": 0,
@@ -39,6 +42,7 @@
         },
         {
           "id": "m4",
+          "matchTitle": "The Heavyweight vs The Underdog",
           "fighterAId": "headless_horseman",
           "fighterBId": "zombie",
           "votesA": 0,
@@ -48,6 +52,7 @@
         },
         {
           "id": "m5",
+          "matchTitle": "The Heavyweight vs The Underdog",
           "fighterAId": "creepy_clown",
           "fighterBId": "banshee",
           "votesA": 0,
@@ -57,6 +62,7 @@
         },
         {
           "id": "m6",
+          "matchTitle": "The Heavyweight vs The Underdog",
           "fighterAId": "grim_reaper",
           "fighterBId": "skeleton",
           "votesA": 0,
@@ -66,6 +72,7 @@
         },
         {
           "id": "m7",
+          "matchTitle": "The Heavyweight vs The Underdog",
           "fighterAId": "witch",
           "fighterBId": "michael_myers",
           "votesA": 0,
@@ -75,13 +82,14 @@
         },
         {
           "id": "m8",
+          "matchTitle": "The Heavyweight vs The Underdog",
           "fighterAId": "cursed_doll",
           "fighterBId": "carlos",
           "votesA": 0,
           "votesB": 0,
           "winnerId": null,
           "location": "An abandoned Spirit Halloween store"
-        }
+        },
       ]
     },
     {
