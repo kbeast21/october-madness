@@ -1,104 +1,142 @@
-{
-  "tournamentName": "October Madness: Spooktacular Superfight",
-  "activeRound": "Sweet Sixteen",
-  "votingDeadline": "2026-10-21T23:59:59",
-  "activeVotingUrl": "https://forms.google.com",
-  "votingIsOpen": true,
-  "rounds": [
+export const tournamentData = {
+  title: "Spooktacular Superfight: Halloween Edition",
+  subtitle: "October Madness 2026",
+  status: "Active",
+  votingDeadline: "Midnight on Halloween (October 31, 2026)",
+  rules: [
+    "3-point voting allocation per matchup.",
+    "Arguments submitted via Google Forms ballots.",
+    "Winners advance through head-to-head bracket voting."
+  ],
+  regions: [
     {
-      "id": "sweet-16",
-      "name": "Sweet Sixteen",
-      "dates": "Oct 16 – Oct 21",
-      "matchups": [
+      id: "haunted-hallways",
+      name: "Haunted Hallways Region"
+    },
+    {
+      id: "graveyard-shift",
+      name: "Graveyard Shift Region"
+    },
+    {
+      id: "cursed-catacombs",
+      name: "Cursed Catacombs Region"
+    },
+    {
+      id: "midnight-manor",
+      name: "Midnight Manor Region"
+    }
+  ],
+  rounds: [
+    {
+      roundNumber: 1,
+      name: "Round of 16",
+      matchups: [
         {
-          "id": "m1",
-          "fighterAId": "jack-o-lantern",
-          "fighterBId": "dracula",
-          "votesA": 0,
-          "votesB": 0,
-          "winnerId": null,
-          "location": "Haunted Graveyard"
+          id: "m1",
+          region: "Haunted Hallways Region",
+          fighter1: { name: "Dracula", seed: 1, score: 0 },
+          fighter2: { name: "Aka Manto", seed: 16, score: 0 },
+          winner: null,
+          status: "Upcoming",
+          formUrl: ""
         },
         {
-          "id": "m2",
-          "fighterAId": "frankenstein",
-          "fighterBId": "mummy",
-          "votesA": 0,
-          "votesB": 0,
-          "winnerId": null,
-          "location": "Abandoned Laboratory"
+          id: "m2",
+          region: "Haunted Hallways Region",
+          fighter1: { name: "Michael Myers", seed: 8, score: 0 },
+          fighter2: { name: "Carlos the Painting", seed: 9, score: 0 },
+          winner: null,
+          status: "Upcoming",
+          formUrl: ""
+        },
+        {
+          id: "m3",
+          region: "Graveyard Shift Region",
+          fighter1: { name: "Frankenstein’s Monster", seed: 2, score: 0 },
+          fighter2: { name: "A Sentient Blender", seed: 15, score: 0 },
+          winner: null,
+          status: "Upcoming",
+          formUrl: ""
+        },
+        {
+          id: "m4",
+          region: "Graveyard Shift Region",
+          fighter1: { name: "A Witch", seed: 7, score: 0 },
+          fighter2: { name: "Jason Voorhees", seed: 10, score: 0 },
+          winner: null,
+          status: "Upcoming",
+          formUrl: ""
+        },
+        {
+          id: "m5",
+          region: "Cursed Catacombs Region",
+          fighter1: { name: "A Creepy Clown", seed: 3, score: 0 },
+          fighter2: { name: "Bear 89", seed: 14, score: 0 },
+          winner: null,
+          status: "Upcoming",
+          formUrl: ""
+        },
+        {
+          id: "m6",
+          region: "Cursed Catacombs Region",
+          fighter1: { name: "A Headless Nun", seed: 6, score: 0 },
+          fighter2: { name: "A Cursed Doll", seed: 11, score: 0 },
+          winner: null,
+          status: "Upcoming",
+          formUrl: ""
+        },
+        {
+          id: "m7",
+          region: "Midnight Manor Region",
+          fighter1: { name: "A Zombie Pirate", seed: 4, score: 0 },
+          fighter2: { name: "The Loch Ness Monster", seed: 13, score: 0 },
+          winner: null,
+          status: "Upcoming",
+          formUrl: ""
+        },
+        {
+          id: "m8",
+          region: "Midnight Manor Region",
+          fighter1: { name: "A Swamp Monster", seed: 5, score: 0 },
+          fighter2: { name: "A Poltergeist", seed: 12, score: 0 },
+          winner: null,
+          status: "Upcoming",
+          formUrl: ""
         }
       ]
     },
     {
-      "id": "elite-8",
-      "name": "Elite Eight",
-      "dates": "Oct 22 – Oct 25",
-      "matchups": []
+      roundNumber: 2,
+      name: "Quarterfinals",
+      matchups: [
+        { id: "m9", region: "Haunted Hallways Region", fighter1: null, fighter2: null, winner: null, status: "Pending" },
+        { id: "m10", region: "Graveyard Shift Region", fighter1: null, fighter2: null, winner: null, status: "Pending" },
+        { id: "m11", region: "Cursed Catacombs Region", fighter1: null, fighter2: null, winner: null, status: "Pending" },
+        { id: "m12", region: "Midnight Manor Region", fighter1: null, fighter2: null, winner: null, status: "Pending" }
+      ]
     },
     {
-      "id": "final-4",
-      "name": "Final Four",
-      "dates": "Oct 26 – Oct 29",
-      "matchups": []
+      roundNumber: 3,
+      name: "Semifinals",
+      matchups: [
+        { id: "m13", name: "Semifinal 1", fighter1: null, fighter2: null, winner: null, status: "Pending" },
+        { id: "m14", name: "Semifinal 2", fighter1: null, fighter2: null, winner: null, status: "Pending" }
+      ]
     },
     {
-      "id": "championship",
-      "name": "Championship",
-      "dates": "Oct 30 – Oct 31",
-      "matchups": []
+      roundNumber: 4,
+      name: "Championship",
+      matchups: [
+        { id: "m15", name: "Halloween Superfight Final", fighter1: null, fighter2: null, winner: null, status: "Pending" }
+      ]
     }
   ],
-  "fighters": [
-    {
-      "id": "jack-o-lantern",
-      "name": "A Jack-o'-Lantern",
-      "status": "Main Bracket",
-      "votes": 3,
-      "bio": "Flickering carved pumpkin armed with explosive embers.",
-      "attributes": ["Illumination Hazard", "Explosive Seeds"],
-      "image": "🎃"
-    },
-    {
-      "id": "dracula",
-      "name": "Count Dracula",
-      "status": "Main Bracket",
-      "votes": 5,
-      "bio": "Ancient vampire with bat shape-shifting abilities.",
-      "attributes": ["Life Drain", "Flight"],
-      "image": "🦇"
-    },
-    {
-      "id": "frankenstein",
-      "name": "Frankenstein's Monster",
-      "status": "Main Bracket",
-      "votes": 4,
-      "bio": "Reanimated titan driven by high-voltage lightning.",
-      "attributes": ["Superhuman Strength", "Electric Charge"],
-      "image": "🧟"
-    },
-    {
-      "id": "mummy",
-      "name": "Ancient Mummy",
-      "status": "Main Bracket",
-      "votes": 2,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    }
-  ],
-  "locations": [
-    {
-      "id": "loc-1",
-      "name": "Haunted Graveyard",
-      "hazard": "Fog of Despair: Reduces vision to 5 feet.",
-      "status": "Approved"
-    },
-    {
-      "id": "loc-2",
-      "name": "Abandoned Laboratory",
-      "hazard": "Exposed Wiring: Periodic lightning strikes every 30 seconds.",
-      "status": "Approved"
-    }
+  bench: [
+    { id: "b1", name: "A Jack-o'-Lantern", description: "Bench Alternate" },
+    { id: "b2", name: "A Banshee", description: "Bench Alternate" },
+    { id: "b3", name: "A Gargoyle", description: "Bench Alternate" },
+    { id: "b4", name: "A Lawn Gnome", description: "Bench Alternate" }
   ]
-}
+};
+
+export default tournamentData;
