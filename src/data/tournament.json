@@ -12,7 +12,6 @@
       "matchups": [
         {
           "id": "m1",
-          "matchTitle": "#1 Dracula vs #16 Carlos the Painting",
           "fighterAId": "dracula",
           "fighterBId": "carlos",
           "votesA": 0,
@@ -22,7 +21,6 @@
         },
         {
           "id": "m2",
-          "matchTitle": "#8 A Werewolf vs #9 A Mad Scientist",
           "fighterAId": "werewolf",
           "fighterBId": "mad_scientist",
           "votesA": 0,
@@ -32,7 +30,6 @@
         },
         {
           "id": "m3",
-          "matchTitle": "#2 A Creepy Clown vs #15 A Banshee",
           "fighterAId": "creepy_clown",
           "fighterBId": "banshee",
           "votesA": 0,
@@ -42,7 +39,6 @@
         },
         {
           "id": "m4",
-          "matchTitle": "#7 The Grim Reaper vs #10 A Skeleton",
           "fighterAId": "grim_reaper",
           "fighterBId": "skeleton",
           "votesA": 0,
@@ -52,7 +48,6 @@
         },
         {
           "id": "m5",
-          "matchTitle": "#3 A Witch vs #14 Michael Myers",
           "fighterAId": "witch",
           "fighterBId": "michael_myers",
           "votesA": 0,
@@ -62,7 +57,6 @@
         },
         {
           "id": "m6",
-          "matchTitle": "#6 A Cursed Doll vs #11 A Mummy",
           "fighterAId": "cursed_doll",
           "fighterBId": "mummy",
           "votesA": 0,
@@ -72,7 +66,6 @@
         },
         {
           "id": "m7",
-          "matchTitle": "#4 Frankenstein's Monster vs #13 A Ghost",
           "fighterAId": "frankenstein",
           "fighterBId": "ghost",
           "votesA": 0,
@@ -82,7 +75,6 @@
         },
         {
           "id": "m8",
-          "matchTitle": "#5 The Headless Horseman vs #12 A Zombie",
           "fighterAId": "headless_horseman",
           "fighterBId": "zombie",
           "votesA": 0,
