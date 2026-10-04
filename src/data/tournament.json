@@ -1,140 +1,456 @@
 {
-  "title": "Spooktacular Superfight: Halloween Edition",
-  "subtitle": "October Madness 2026",
-  "status": "Active",
-  "votingDeadline": "Midnight on Halloween (October 31, 2026)",
-  "rules": [
-    "3-point voting allocation per matchup.",
-    "Arguments submitted via Google Forms ballots.",
-    "Winners advance through head-to-head bracket voting."
-  ],
-  "regions": [
-    { "id": "haunted-hallways", "name": "Haunted Hallways Region" },
-    { "id": "graveyard-shift", "name": "Graveyard Shift Region" },
-    { "id": "cursed-catacombs", "name": "Cursed Catacombs Region" },
-    { "id": "midnight-manor", "name": "Midnight Manor Region" }
-  ],
+  "tournamentName": "October Madness 2026",
+  "activeRound": "Sweet Sixteen",
+  "votingDeadline": "2026-10-21T23:59:59",
+  "activeVotingUrl": "https://docs.google.com/forms/d/1c2VT8VYOFDXFCyqhqODmolkv6C1LvQyHjR-DxLdiPUM/edit",
+  "votingIsOpen": true,
   "rounds": [
     {
-      "roundNumber": 1,
-      "name": "Round of 16",
+      "id": "sweet-16",
+      "name": "Sweet Sixteen",
+      "dates": "Oct 16 – Oct 21",
       "matchups": [
         {
           "id": "m1",
-          "region": "Haunted Hallways Region",
-          "fighter1": { "name": "Dracula", "seed": 1, "score": 0 },
-          "fighter2": { "name": "Carlos the Painting", "seed": 16, "score": 0 },
-          "winner": null,
-          "status": "Upcoming",
-          "formUrl": ""
+          "matchTitle": "#1 Dracula vs #16 Carlos the Painting",
+          "fighterAId": "dracula",
+          "fighterBId": "carlos",
+          "votesA": 0,
+          "votesB": 0,
+          "winnerId": null,
+          "location": "An abandoned Spirit Halloween store"
         },
         {
           "id": "m2",
-          "region": "Haunted Hallways Region",
-          "fighter1": { "name": "A Werewolf", "seed": 8, "score": 0 },
-          "fighter2": { "name": "A Mad Scientist", "seed": 9, "score": 0 },
-          "winner": null,
-          "status": "Upcoming",
-          "formUrl": ""
+          "matchTitle": "#8 A Werewolf vs #9 A Mad Scientist",
+          "fighterAId": "werewolf",
+          "fighterBId": "mad_scientist",
+          "votesA": 0,
+          "votesB": 0,
+          "winnerId": null,
+          "location": "An abandoned Spirit Halloween store"
         },
         {
           "id": "m3",
-          "region": "Graveyard Shift Region",
-          "fighter1": { "name": "A Creepy Clown", "seed": 2, "score": 0 },
-          "fighter2": { "name": "A Banshee", "seed": 15, "score": 0 },
-          "winner": null,
-          "status": "Upcoming",
-          "formUrl": ""
+          "matchTitle": "#2 A Creepy Clown vs #15 A Banshee",
+          "fighterAId": "creepy_clown",
+          "fighterBId": "banshee",
+          "votesA": 0,
+          "votesB": 0,
+          "winnerId": null,
+          "location": "An abandoned Spirit Halloween store"
         },
         {
           "id": "m4",
-          "region": "Graveyard Shift Region",
-          "fighter1": { "name": "The Grim Reaper", "seed": 7, "score": 0 },
-          "fighter2": { "name": "A Skeleton", "seed": 10, "score": 0 },
-          "winner": null,
-          "status": "Upcoming",
-          "formUrl": ""
+          "matchTitle": "#7 The Grim Reaper vs #10 A Skeleton",
+          "fighterAId": "grim_reaper",
+          "fighterBId": "skeleton",
+          "votesA": 0,
+          "votesB": 0,
+          "winnerId": null,
+          "location": "An abandoned Spirit Halloween store"
         },
         {
           "id": "m5",
-          "region": "Cursed Catacombs Region",
-          "fighter1": { "name": "A Witch", "seed": 3, "score": 0 },
-          "fighter2": { "name": "Michael Myers", "seed": 14, "score": 0 },
-          "winner": null,
-          "status": "Upcoming",
-          "formUrl": ""
+          "matchTitle": "#3 A Witch vs #14 Michael Myers",
+          "fighterAId": "witch",
+          "fighterBId": "michael_myers",
+          "votesA": 0,
+          "votesB": 0,
+          "winnerId": null,
+          "location": "An abandoned Spirit Halloween store"
         },
         {
           "id": "m6",
-          "region": "Cursed Catacombs Region",
-          "fighter1": { "name": "A Cursed Doll", "seed": 6, "score": 0 },
-          "fighter2": { "name": "A Mummy", "seed": 11, "score": 0 },
-          "winner": null,
-          "status": "Upcoming",
-          "formUrl": ""
+          "matchTitle": "#6 A Cursed Doll vs #11 A Mummy",
+          "fighterAId": "cursed_doll",
+          "fighterBId": "mummy",
+          "votesA": 0,
+          "votesB": 0,
+          "winnerId": null,
+          "location": "An abandoned Spirit Halloween store"
         },
         {
           "id": "m7",
-          "region": "Midnight Manor Region",
-          "fighter1": { "name": "Frankenstein's Monster", "seed": 4, "score": 0 },
-          "fighter2": { "name": "A Ghost", "seed": 13, "score": 0 },
-          "winner": null,
-          "status": "Upcoming",
-          "formUrl": ""
+          "matchTitle": "#4 Frankenstein's Monster vs #13 A Ghost",
+          "fighterAId": "frankenstein",
+          "fighterBId": "ghost",
+          "votesA": 0,
+          "votesB": 0,
+          "winnerId": null,
+          "location": "An abandoned Spirit Halloween store"
         },
         {
           "id": "m8",
-          "region": "Midnight Manor Region",
-          "fighter1": { "name": "The Headless Horseman", "seed": 5, "score": 0 },
-          "fighter2": { "name": "A Zombie", "seed": 12, "score": 0 },
-          "winner": null,
-          "status": "Upcoming",
-          "formUrl": ""
+          "matchTitle": "#5 The Headless Horseman vs #12 A Zombie",
+          "fighterAId": "headless_horseman",
+          "fighterBId": "zombie",
+          "votesA": 0,
+          "votesB": 0,
+          "winnerId": null,
+          "location": "An abandoned Spirit Halloween store"
         }
       ]
     },
     {
-      "roundNumber": 2,
-      "name": "Quarterfinals",
-      "matchups": [
-        { "id": "m9", "region": "Haunted Hallways Region", "fighter1": null, "fighter2": null, "winner": null, "status": "Pending" },
-        { "id": "m10", "region": "Graveyard Shift Region", "fighter1": null, "fighter2": null, "winner": null, "status": "Pending" },
-        { "id": "m11", "region": "Cursed Catacombs Region", "fighter1": null, "fighter2": null, "winner": null, "status": "Pending" },
-        { "id": "m12", "region": "Midnight Manor Region", "fighter1": null, "fighter2": null, "winner": null, "status": "Pending" }
-      ]
+      "id": "elite-8",
+      "name": "Elite Eight",
+      "dates": "Oct 22 – Oct 25",
+      "matchups": []
     },
     {
-      "roundNumber": 3,
-      "name": "Semifinals",
-      "matchups": [
-        { "id": "m13", "name": "Semifinal 1", "fighter1": null, "fighter2": null, "winner": null, "status": "Pending" },
-        { "id": "m14", "name": "Semifinal 2", "fighter1": null, "fighter2": null, "winner": null, "status": "Pending" }
-      ]
+      "id": "final-4",
+      "name": "Final Four",
+      "dates": "Oct 26 – Oct 29",
+      "matchups": []
     },
     {
-      "roundNumber": 4,
+      "id": "championship",
       "name": "Championship",
-      "matchups": [
-        { "id": "m15", "name": "Halloween Superfight Final", "fighter1": null, "fighter2": null, "winner": null, "status": "Pending" }
-      ]
+      "dates": "Oct 30 – Oct 31",
+      "matchups": []
     }
   ],
-  "bench": [
-    { "id": "b1", "name": "A Jack-o'-Lantern", "description": "Bench Alternate" },
-    { "id": "b2", "name": "A Swamp Monster", "description": "Bench Alternate" },
-    { "id": "b3", "name": "A Headless Nun", "description": "Bench Alternate" },
-    { "id": "b4", "name": "A Zombie Pirate", "description": "Bench Alternate" },
-    { "id": "b5", "name": "The Loch Ness Monster", "description": "Bench Alternate" },
-    { "id": "b6", "name": "Bear 89", "description": "Bench Alternate" },
-    { "id": "b7", "name": "A Sentient Blender", "description": "Bench Alternate" },
-    { "id": "b8", "name": "Aka Manto", "description": "Bench Alternate" },
-    { "id": "b9", "name": "A Gargoyle", "description": "Bench Alternate" },
-    { "id": "b10", "name": "A Lawn Gnome", "description": "Bench Alternate" },
-    { "id": "b11", "name": "Vigo the Carpathian", "description": "Bench Alternate" },
-    { "id": "b12", "name": "A Vampire Hunter", "description": "Bench Alternate" },
-    { "id": "b13", "name": "Zeus", "description": "Bench Alternate" },
-    { "id": "b14", "name": "A Borg", "description": "Bench Alternate" },
-    { "id": "b15", "name": "A Chupacabra", "description": "Bench Alternate" },
-    { "id": "b16", "name": "A Shadow Creature", "description": "Bench Alternate" }
+  "fighters": [
+    {
+      "id": "dracula",
+      "name": "Dracula",
+      "status": "Main Bracket",
+      "seed": 1,
+      "votes": 9,
+      "bio": "Ancient vampire king with shapeshifting and blood manipulation.",
+      "attributes": ["Life Drain", "Mist Form"],
+      "image": "🦇"
+    },
+    {
+      "id": "creepy_clown",
+      "name": "A Creepy Clown",
+      "status": "Main Bracket",
+      "seed": 2,
+      "votes": 8,
+      "bio": "Psychological nightmare armed with razor balloon animals.",
+      "attributes": ["Horrifying Laughter", "Unpredictable Weaponry"],
+      "image": "🤡"
+    },
+    {
+      "id": "witch",
+      "name": "A Witch",
+      "status": "Main Bracket",
+      "seed": 3,
+      "votes": 7,
+      "bio": "Master of ancient arcane curses and potion alchemy.",
+      "attributes": ["Hex Casting", "Flight"],
+      "image": "🧹"
+    },
+    {
+      "id": "frankenstein",
+      "name": "Frankenstein's Monster",
+      "status": "Main Bracket",
+      "seed": 4,
+      "votes": 7,
+      "bio": "Reanimated brute powered by high-voltage lightning.",
+      "attributes": ["Superhuman Strength", "Electric Surge"],
+      "image": "🧟"
+    },
+    {
+      "id": "headless_horseman",
+      "name": "The Headless Horseman",
+      "status": "Main Bracket",
+      "seed": 5,
+      "votes": 6,
+      "bio": "Decapitated spectral knight riding a fiery black steed.",
+      "attributes": ["Flaming Pumpkin", "Relentless Pursuit"],
+      "image": "🎃"
+    },
+    {
+      "id": "cursed_doll",
+      "name": "A Cursed Doll",
+      "status": "Main Bracket",
+      "seed": 6,
+      "votes": 6,
+      "bio": "Diminutive porcelain terror animated by malice.",
+      "attributes": ["Voodoo Binding", "Silent Stalking"],
+      "image": "🪆"
+    },
+    {
+      "id": "grim_reaper",
+      "name": "The Grim Reaper",
+      "status": "Main Bracket",
+      "seed": 7,
+      "votes": 5,
+      "bio": "The immortal harbinger of death wielding a soul scythe.",
+      "attributes": ["Soul Harvest", "Death Touch"],
+      "image": "💀"
+    },
+    {
+      "id": "werewolf",
+      "name": "A Werewolf",
+      "status": "Main Bracket",
+      "seed": 8,
+      "votes": 5,
+      "bio": "Savage lycanthrope propelled by lunar fury.",
+      "attributes": ["Razor Claws", "Frenzied Speed"],
+      "image": "🐺"
+    },
+    {
+      "id": "mad_scientist",
+      "name": "A Mad Scientist",
+      "status": "Main Bracket",
+      "seed": 9,
+      "votes": 5,
+      "bio": "Unhinged genius equipped with experimental death rays.",
+      "attributes": ["Chemical Flasks", "Ray Gun"],
+      "image": "🧪"
+    },
+    {
+      "id": "skeleton",
+      "name": "A Skeleton",
+      "status": "Main Bracket",
+      "seed": 10,
+      "votes": 4,
+      "bio": "Undead warrior capable of reassembling its bones.",
+      "attributes": ["Bone Toss", "Reassembly"],
+      "image": "🦴"
+    },
+    {
+      "id": "mummy",
+      "name": "A Mummy",
+      "status": "Main Bracket",
+      "seed": 11,
+      "votes": 4,
+      "bio": "Ancient pharaoh wrapped in decay-inducing bandages.",
+      "attributes": ["Curse of the Tomb", "Sandstorm"],
+      "image": "🏺"
+    },
+    {
+      "id": "zombie",
+      "name": "A Zombie",
+      "status": "Main Bracket",
+      "seed": 12,
+      "votes": 4,
+      "bio": "Relentless corpse that ignores all physical damage.",
+      "attributes": ["Infection Touch", "Pain Immunity"],
+      "image": "🧟‍♂️"
+    },
+    {
+      "id": "ghost",
+      "name": "A Ghost",
+      "status": "Main Bracket",
+      "seed": 13,
+      "votes": 3,
+      "bio": "Incorporeal phantom that passes through solid matter.",
+      "attributes": ["Intangibility", "Telekinesis"],
+      "image": "👻"
+    },
+    {
+      "id": "michael_myers",
+      "name": "Michael Myers",
+      "status": "Main Bracket",
+      "seed": 14,
+      "votes": 3,
+      "bio": "Unstoppable silent slasher driven by pure evil.",
+      "attributes": ["Chef Knife", "Indestructible Walk"],
+      "image": "🔪"
+    },
+    {
+      "id": "banshee",
+      "name": "A Banshee",
+      "status": "Main Bracket",
+      "seed": 15,
+      "votes": 3,
+      "bio": "Screaming spirit whose wail shatters bone and glass.",
+      "attributes": ["Sonic Wail", "Flight"],
+      "image": "🗣️"
+    },
+    {
+      "id": "carlos",
+      "name": "Carlos the Painting",
+      "status": "Main Bracket",
+      "seed": 16,
+      "votes": 3,
+      "bio": "Haunted portrait whose eyes track your every movement.",
+      "attributes": ["Canvas Trapping", "Psychic Gaze"],
+      "image": "🖼️️"
+    },
+    {
+      "id": "jack_o_lantern",
+      "name": "A Jack-o'-Lantern",
+      "status": "Bench",
+      "seed": null,
+      "votes": 2,
+      "bio": "Flickering carved pumpkin armed with explosive embers.",
+      "attributes": ["Illumination Hazard", "Explosive Seeds"],
+      "image": "🎃"
+    },
+    {
+      "id": "swamp_monster",
+      "name": "A Swamp Monster",
+      "status": "Bench",
+      "seed": null,
+      "votes": 2,
+      "bio": "Amphibious beast forged from toxic sludge and muck.",
+      "attributes": ["Slime Coating", "Submerged Ambush"],
+      "image": "🐉"
+    },
+    {
+      "id": "headless_nun",
+      "name": "A Headless Nun",
+      "status": "Bench",
+      "seed": null,
+      "votes": 2,
+      "bio": "Eerie spectral presence wielding unholy relics.",
+      "attributes": ["Silent Judgment", "Holy Radiance Negation"],
+      "image": "⛪"
+    },
+    {
+      "id": "zombie_pirate",
+      "name": "A Zombie Pirate",
+      "status": "Bench",
+      "seed": null,
+      "votes": 2,
+      "bio": "Scurvy-ridden undead captain armed with rusty cutlasses.",
+      "attributes": ["Flintlock Burst", "Cursed Doubloons"],
+      "image": "🏴‍☠️"
+    },
+    {
+      "id": "loch_ness_monster",
+      "name": "The Loch Ness Monster",
+      "status": "Bench",
+      "seed": null,
+      "votes": 2,
+      "bio": "Massive aquatic cryptid that creates violent waves.",
+      "attributes": ["Deep Dive", "Crushing Tail"],
+      "image": "🦕"
+    },
+    {
+      "id": "bear_89",
+      "name": "Bear 89",
+      "status": "Bench",
+      "seed": null,
+      "votes": 2,
+      "bio": "Apex Katmai champion hyper-bulked for pre-hibernation combat.",
+      "attributes": ["Salmon Crush", "Fat Bear Armor"],
+      "image": "🐻"
+    },
+    {
+      "id": "sentient_blender",
+      "name": "A Sentient Blender",
+      "status": "Bench",
+      "seed": null,
+      "votes": 2,
+      "bio": "Countertop appliance spinning at 30,000 RPMs of rage.",
+      "attributes": ["Puree Vortex", "Razor Blades"],
+      "image": "🔌"
+    },
+    {
+      "id": "aka_manto",
+      "name": "Aka Manto",
+      "status": "Bench",
+      "seed": null,
+      "votes": 2,
+      "bio": "Masked spirit offering lethal toilet paper choices.",
+      "attributes": ["Cape Trap", "Red/Blue Slash"],
+      "image": "🎭"
+    },
+    {
+      "id": "gargoyle",
+      "name": "A Gargoyle",
+      "status": "Bench",
+      "seed": null,
+      "votes": 1,
+      "bio": "Stone sentinel that swoops down from gothic rooftops.",
+      "attributes": ["Stone Skin", "Aerial Dive"],
+      "image": "🗿"
+    },
+    {
+      "id": "lawn_gnome",
+      "name": "A Lawn Gnome",
+      "status": "Bench",
+      "seed": null,
+      "votes": 1,
+      "bio": "Pointy-hatted yard ornament operating with mob intelligence.",
+      "attributes": ["Ankle Bite", "Undercover Camouflage"],
+      "image": "🧙‍♂️"
+    },
+    {
+      "id": "vigo_carpathian",
+      "name": "Vigo the Carpathian",
+      "status": "Bench",
+      "seed": null,
+      "votes": 1,
+      "bio": "17th-century warlord residing in mood slime.",
+      "attributes": ["Psychic Slime", "Possession"],
+      "image": "🎨"
+    },
+    {
+      "id": "vampire_hunter",
+      "name": "A Vampire Hunter",
+      "status": "Bench",
+      "seed": null,
+      "votes": 1,
+      "bio": "Relentless tactician laden with garlic, stakes, and holy water.",
+      "attributes": ["Crossbow Precision", "Stake Impale"],
+      "image": "🏹"
+    },
+    {
+      "id": "zeus",
+      "name": "Zeus",
+      "status": "Bench",
+      "seed": null,
+      "votes": 1,
+      "bio": "Greek god of sky and thunder hurling divine lightning bolts.",
+      "attributes": ["Thunderbolt", "Divinity Shield"],
+      "image": "⚡"
+    },
+    {
+      "id": "borg",
+      "name": "A Borg",
+      "status": "Bench",
+      "seed": null,
+      "votes": 1,
+      "bio": "Cybernetic organism that adapts to all enemy attacks.",
+      "attributes": ["Adaptive Shielding", "Assimilation Tubules"],
+      "image": "🤖"
+    },
+    {
+      "id": "chupacabra",
+      "name": "A Chupacabra",
+      "status": "Bench",
+      "seed": null,
+      "votes": 1,
+      "bio": "Spined cryptid that drains the vitality of its prey.",
+      "attributes": ["Spike Launch", "Vampiric Bite"],
+      "image": "🦎"
+    },
+    {
+      "id": "shadow_creature",
+      "name": "A Shadow Creature",
+      "status": "Bench",
+      "seed": null,
+      "votes": 1,
+      "bio": "Amorphous dark entity lurking in unlit corners.",
+      "attributes": ["Shadow Meld", "Terror Inducement"],
+      "image": "👤"
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc-1",
+      "name": "Haunted Graveyard",
+      "hazard": "Fog of Despair: Reduces vision to 5 feet.",
+      "status": "Approved"
+    },
+    {
+      "id": "loc-2",
+      "name": "Abandoned Laboratory",
+      "hazard": "Exposed Wiring: Periodic lightning strikes every 30 seconds.",
+      "status": "Approved"
+    },
+    {
+      "id": "loc-3",
+      "name": "An abandoned Spirit Halloween store",
+      "hazard": "Pop-Up Animatronics: Random jump scares confuse combatants.",
+      "status": "Approved"
+    }
   ]
 }
