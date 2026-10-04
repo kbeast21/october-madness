@@ -1,8 +1,8 @@
 {
-  "tournamentName": "October Madness 2026",
+  "tournamentName": "October Madness: Spooktacular Superfight",
   "activeRound": "Sweet Sixteen",
   "votingDeadline": "2026-10-21T23:59:59",
-  "activeVotingUrl": "https://docs.google.com/forms/d/1c2VT8VYOFDXFCyqhqODmolkv6C1LvQyHjR-DxLdiPUM/edit",
+  "activeVotingUrl": "https://forms.google.com",
   "votingIsOpen": true,
   "rounds": [
     {
@@ -12,84 +12,22 @@
       "matchups": [
         {
           "id": "m1",
-          "matchTitle": "The Heavyweight vs The Underdog",
-          "fighterAId": "dracula",
-          "fighterBId": "carlos",
+          "fighterAId": "jack-o-lantern",
+          "fighterBId": "dracula",
           "votesA": 0,
           "votesB": 0,
           "winnerId": null,
-          "location": "An abandoned Spirit Halloween store"
+          "location": "Haunted Graveyard"
         },
         {
           "id": "m2",
-          "matchTitle": "The Heavyweight vs The Underdog",
-          "fighterAId": "werewolf",
-          "fighterBId": "mad_scientest",
+          "fighterAId": "frankenstein",
+          "fighterBId": "mummy",
           "votesA": 0,
           "votesB": 0,
           "winnerId": null,
-          "location": "An abandoned Spirit Halloween store"
-        },
-        {
-          "id": "m3",
-          "matchTitle": "The Heavyweight vs The Underdog",
-          "fighterAId": "frankinstein",
-          "fighterBId": "ghost",
-          "votesA": 0,
-          "votesB": 0,
-          "winnerId": null,
-          "location": "An abandoned Spirit Halloween store"
-        },
-        {
-          "id": "m4",
-          "matchTitle": "The Heavyweight vs The Underdog",
-          "fighterAId": "headless_horseman",
-          "fighterBId": "zombie",
-          "votesA": 0,
-          "votesB": 0,
-          "winnerId": null,
-          "location": "An abandoned Spirit Halloween store"
-        },
-        {
-          "id": "m5",
-          "matchTitle": "The Heavyweight vs The Underdog",
-          "fighterAId": "creepy_clown",
-          "fighterBId": "banshee",
-          "votesA": 0,
-          "votesB": 0,
-          "winnerId": null,
-          "location": "An abandoned Spirit Halloween store"
-        },
-        {
-          "id": "m6",
-          "matchTitle": "The Heavyweight vs The Underdog",
-          "fighterAId": "grim_reaper",
-          "fighterBId": "skeleton",
-          "votesA": 0,
-          "votesB": 0,
-          "winnerId": null,
-          "location": "An abandoned Spirit Halloween store"
-        },
-        {
-          "id": "m7",
-          "matchTitle": "The Heavyweight vs The Underdog",
-          "fighterAId": "witch",
-          "fighterBId": "michael_myers",
-          "votesA": 0,
-          "votesB": 0,
-          "winnerId": null,
-          "location": "An abandoned Spirit Halloween store"
-        },
-        {
-          "id": "m8",
-          "matchTitle": "The Heavyweight vs The Underdog",
-          "fighterAId": "cursed_doll",
-          "fighterBId": "carlos",
-          "votesA": 0,
-          "votesB": 0,
-          "winnerId": null,
-          "location": "An abandoned Spirit Halloween store"
-        },
+          "location": "Abandoned Laboratory"
+        }
       ]
     },
     {
@@ -115,7 +53,7 @@
     {
       "id": "jack-o-lantern",
       "name": "A Jack-o'-Lantern",
-      "status": "Bench",
+      "status": "Main Bracket",
       "votes": 3,
       "bio": "Flickering carved pumpkin armed with explosive embers.",
       "attributes": ["Illumination Hazard", "Explosive Seeds"],
@@ -123,9 +61,9 @@
     },
     {
       "id": "dracula",
-      "name": "Dracula",
+      "name": "Count Dracula",
       "status": "Main Bracket",
-      "votes": 9,
+      "votes": 5,
       "bio": "Ancient vampire with bat shape-shifting abilities.",
       "attributes": ["Life Drain", "Flight"],
       "image": "🦇"
@@ -134,137 +72,20 @@
       "id": "frankenstein",
       "name": "Frankenstein's Monster",
       "status": "Main Bracket",
-      "votes": 7,
+      "votes": 4,
       "bio": "Reanimated titan driven by high-voltage lightning.",
       "attributes": ["Superhuman Strength", "Electric Charge"],
       "image": "🧟"
     },
     {
-      "id": "creepy_clown",
-      "name": "A Creepy Clown",
-      "status": "Main Bracket",
-      "votes": 8,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "witch",
-      "name": "A Witch",
-      "status": "Main Bracket",
-      "votes": 7,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "headless_horseman",
-      "name": "The Headless Horseman",
-      "status": "Main Bracket",
-      "votes": 6,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "cursed_doll",
-      "name": "A Cursed Doll",
-      "status": "Main Bracket",
-      "votes": 6,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "werewolf",
-      "name": "A Werewolf",
-      "status": "Main Bracket",
-      "votes": 6,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "grim_reaper",
-      "name": "The Grim Reaper",
-      "status": "Main Bracket",
-      "votes": 6,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "mad_scientist",
-      "name": "A Mad Scientist",
-      "status": "Main Bracket",
-      "votes": 5,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "skeleton",
-      "name": "A Skeleton",
-      "status": "Main Bracket",
-      "votes": 4,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
       "id": "mummy",
-      "name": "A Mummy",
+      "name": "Ancient Mummy",
       "status": "Main Bracket",
-      "votes": 4,
+      "votes": 2,
       "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
       "attributes": ["Sandstorm", "Curse of the Tomb"],
       "image": "🏺"
-    },
-    {
-      "id": "zombie",
-      "name": "A Zombie",
-      "status": "Main Bracket",
-      "votes": 4,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "ghost",
-      "name": "A Ghost",
-      "status": "Main Bracket",
-      "votes": 4,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "michael_myers",
-      "name": "Michael Myers",
-      "status": "Main Bracket",
-      "votes": 4,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "banshee",
-      "name": "A Banshee",
-      "status": "Main Bracket",
-      "votes": 4,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "carlos",
-      "name": "Carlos (the painting",
-      "status": "Main Bracket",
-      "votes": 4,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
+    }
   ],
   "locations": [
     {
