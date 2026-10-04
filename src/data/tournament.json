@@ -115,7 +115,7 @@
     {
       "id": "jack-o-lantern",
       "name": "A Jack-o'-Lantern",
-      "status": "Main Bracket",
+      "status": "Bench",
       "votes": 3,
       "bio": "Flickering carved pumpkin armed with explosive embers.",
       "attributes": ["Illumination Hazard", "Explosive Seeds"],
