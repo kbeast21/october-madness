@@ -1,283 +1,140 @@
 {
-  "tournamentName": "October Madness 2026",
-  "activeRound": "Sweet Sixteen",
-  "votingDeadline": "2026-10-21T23:59:59",
-  "activeVotingUrl": "https://docs.google.com/forms/d/1c2VT8VYOFDXFCyqhqODmolkv6C1LvQyHjR-DxLdiPUM/edit",
-  "votingIsOpen": true,
+  "title": "Spooktacular Superfight: Halloween Edition",
+  "subtitle": "October Madness 2026",
+  "status": "Active",
+  "votingDeadline": "Midnight on Halloween (October 31, 2026)",
+  "rules": [
+    "3-point voting allocation per matchup.",
+    "Arguments submitted via Google Forms ballots.",
+    "Winners advance through head-to-head bracket voting."
+  ],
+  "regions": [
+    { "id": "haunted-hallways", "name": "Haunted Hallways Region" },
+    { "id": "graveyard-shift", "name": "Graveyard Shift Region" },
+    { "id": "cursed-catacombs", "name": "Cursed Catacombs Region" },
+    { "id": "midnight-manor", "name": "Midnight Manor Region" }
+  ],
   "rounds": [
     {
-      "id": "sweet-16",
-      "name": "Sweet Sixteen",
-      "dates": "Oct 16 – Oct 21",
+      "roundNumber": 1,
+      "name": "Round of 16",
       "matchups": [
         {
           "id": "m1",
-          "matchTitle": "The Heavyweight vs The Underdog",
-          "fighterAId": "dracula",
-          "fighterBId": "carlos",
-          "votesA": 0,
-          "votesB": 0,
-          "winnerId": null,
-          "location": "An abandoned Spirit Halloween store"
+          "region": "Haunted Hallways Region",
+          "fighter1": { "name": "Dracula", "seed": 1, "score": 0 },
+          "fighter2": { "name": "Carlos the Painting", "seed": 16, "score": 0 },
+          "winner": null,
+          "status": "Upcoming",
+          "formUrl": ""
         },
         {
           "id": "m2",
-          "matchTitle": "The Heavyweight vs The Underdog",
-          "fighterAId": "werewolf",
-          "fighterBId": "mad_scientist",
-          "votesA": 0,
-          "votesB": 0,
-          "winnerId": null,
-          "location": "An abandoned Spirit Halloween store"
+          "region": "Haunted Hallways Region",
+          "fighter1": { "name": "A Werewolf", "seed": 8, "score": 0 },
+          "fighter2": { "name": "A Mad Scientist", "seed": 9, "score": 0 },
+          "winner": null,
+          "status": "Upcoming",
+          "formUrl": ""
         },
         {
           "id": "m3",
-          "matchTitle": "The Heavyweight vs The Underdog",
-          "fighterAId": "frankenstein",
-          "fighterBId": "ghost",
-          "votesA": 0,
-          "votesB": 0,
-          "winnerId": null,
-          "location": "An abandoned Spirit Halloween store"
+          "region": "Graveyard Shift Region",
+          "fighter1": { "name": "A Creepy Clown", "seed": 2, "score": 0 },
+          "fighter2": { "name": "A Banshee", "seed": 15, "score": 0 },
+          "winner": null,
+          "status": "Upcoming",
+          "formUrl": ""
         },
         {
           "id": "m4",
-          "matchTitle": "The Heavyweight vs The Underdog",
-          "fighterAId": "headless_horseman",
-          "fighterBId": "zombie",
-          "votesA": 0,
-          "votesB": 0,
-          "winnerId": null,
-          "location": "An abandoned Spirit Halloween store"
+          "region": "Graveyard Shift Region",
+          "fighter1": { "name": "The Grim Reaper", "seed": 7, "score": 0 },
+          "fighter2": { "name": "A Skeleton", "seed": 10, "score": 0 },
+          "winner": null,
+          "status": "Upcoming",
+          "formUrl": ""
         },
         {
           "id": "m5",
-          "matchTitle": "The Heavyweight vs The Underdog",
-          "fighterAId": "creepy_clown",
-          "fighterBId": "banshee",
-          "votesA": 0,
-          "votesB": 0,
-          "winnerId": null,
-          "location": "An abandoned Spirit Halloween store"
+          "region": "Cursed Catacombs Region",
+          "fighter1": { "name": "A Witch", "seed": 3, "score": 0 },
+          "fighter2": { "name": "Michael Myers", "seed": 14, "score": 0 },
+          "winner": null,
+          "status": "Upcoming",
+          "formUrl": ""
         },
         {
           "id": "m6",
-          "matchTitle": "The Heavyweight vs The Underdog",
-          "fighterAId": "grim_reaper",
-          "fighterBId": "skeleton",
-          "votesA": 0,
-          "votesB": 0,
-          "winnerId": null,
-          "location": "An abandoned Spirit Halloween store"
+          "region": "Cursed Catacombs Region",
+          "fighter1": { "name": "A Cursed Doll", "seed": 6, "score": 0 },
+          "fighter2": { "name": "A Mummy", "seed": 11, "score": 0 },
+          "winner": null,
+          "status": "Upcoming",
+          "formUrl": ""
         },
         {
           "id": "m7",
-          "matchTitle": "The Heavyweight vs The Underdog",
-          "fighterAId": "witch",
-          "fighterBId": "michael_myers",
-          "votesA": 0,
-          "votesB": 0,
-          "winnerId": null,
-          "location": "An abandoned Spirit Halloween store"
+          "region": "Midnight Manor Region",
+          "fighter1": { "name": "Frankenstein's Monster", "seed": 4, "score": 0 },
+          "fighter2": { "name": "A Ghost", "seed": 13, "score": 0 },
+          "winner": null,
+          "status": "Upcoming",
+          "formUrl": ""
         },
         {
           "id": "m8",
-          "matchTitle": "The Heavyweight vs The Underdog",
-          "fighterAId": "cursed_doll",
-          "fighterBId": "carlos",
-          "votesA": 0,
-          "votesB": 0,
-          "winnerId": null,
-          "location": "An abandoned Spirit Halloween store"
+          "region": "Midnight Manor Region",
+          "fighter1": { "name": "The Headless Horseman", "seed": 5, "score": 0 },
+          "fighter2": { "name": "A Zombie", "seed": 12, "score": 0 },
+          "winner": null,
+          "status": "Upcoming",
+          "formUrl": ""
         }
       ]
     },
     {
-      "id": "elite-8",
-      "name": "Elite Eight",
-      "dates": "Oct 22 – Oct 25",
-      "matchups": []
+      "roundNumber": 2,
+      "name": "Quarterfinals",
+      "matchups": [
+        { "id": "m9", "region": "Haunted Hallways Region", "fighter1": null, "fighter2": null, "winner": null, "status": "Pending" },
+        { "id": "m10", "region": "Graveyard Shift Region", "fighter1": null, "fighter2": null, "winner": null, "status": "Pending" },
+        { "id": "m11", "region": "Cursed Catacombs Region", "fighter1": null, "fighter2": null, "winner": null, "status": "Pending" },
+        { "id": "m12", "region": "Midnight Manor Region", "fighter1": null, "fighter2": null, "winner": null, "status": "Pending" }
+      ]
     },
     {
-      "id": "final-4",
-      "name": "Final Four",
-      "dates": "Oct 26 – Oct 29",
-      "matchups": []
+      "roundNumber": 3,
+      "name": "Semifinals",
+      "matchups": [
+        { "id": "m13", "name": "Semifinal 1", "fighter1": null, "fighter2": null, "winner": null, "status": "Pending" },
+        { "id": "m14", "name": "Semifinal 2", "fighter1": null, "fighter2": null, "winner": null, "status": "Pending" }
+      ]
     },
     {
-      "id": "championship",
+      "roundNumber": 4,
       "name": "Championship",
-      "dates": "Oct 30 – Oct 31",
-      "matchups": []
+      "matchups": [
+        { "id": "m15", "name": "Halloween Superfight Final", "fighter1": null, "fighter2": null, "winner": null, "status": "Pending" }
+      ]
     }
   ],
-  "fighters": [
-    {
-      "id": "jack-o-lantern",
-      "name": "A Jack-o'-Lantern",
-      "status": "Main Bracket",
-      "votes": 3,
-      "bio": "Flickering carved pumpkin armed with explosive embers.",
-      "attributes": ["Illumination Hazard", "Explosive Seeds"],
-      "image": "🎃"
-    },
-    {
-      "id": "dracula",
-      "name": "Dracula",
-      "status": "Main Bracket",
-      "votes": 9,
-      "bio": "Ancient vampire with bat shape-shifting abilities.",
-      "attributes": ["Life Drain", "Flight"],
-      "image": "🦇"
-    },
-    {
-      "id": "frankenstein",
-      "name": "Frankenstein's Monster",
-      "status": "Main Bracket",
-      "votes": 7,
-      "bio": "Reanimated titan driven by high-voltage lightning.",
-      "attributes": ["Superhuman Strength", "Electric Charge"],
-      "image": "🧟"
-    },
-    {
-      "id": "creepy_clown",
-      "name": "A Creepy Clown",
-      "status": "Main Bracket",
-      "votes": 8,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "witch",
-      "name": "A Witch",
-      "status": "Main Bracket",
-      "votes": 7,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "headless_horseman",
-      "name": "The Headless Horseman",
-      "status": "Main Bracket",
-      "votes": 6,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "cursed_doll",
-      "name": "A Cursed Doll",
-      "status": "Main Bracket",
-      "votes": 6,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "werewolf",
-      "name": "A Werewolf",
-      "status": "Main Bracket",
-      "votes": 6,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "grim_reaper",
-      "name": "The Grim Reaper",
-      "status": "Main Bracket",
-      "votes": 6,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "mad_scientist",
-      "name": "A Mad Scientist",
-      "status": "Main Bracket",
-      "votes": 5,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "skeleton",
-      "name": "A Skeleton",
-      "status": "Main Bracket",
-      "votes": 4,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "mummy",
-      "name": "A Mummy",
-      "status": "Main Bracket",
-      "votes": 4,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "zombie",
-      "name": "A Zombie",
-      "status": "Main Bracket",
-      "votes": 4,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "ghost",
-      "name": "A Ghost",
-      "status": "Main Bracket",
-      "votes": 4,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "michael_myers",
-      "name": "Michael Myers",
-      "status": "Main Bracket",
-      "votes": 4,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "banshee",
-      "name": "A Banshee",
-      "status": "Main Bracket",
-      "votes": 4,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    },
-    {
-      "id": "carlos",
-      "name": "Carlos (the painting",
-      "status": "Main Bracket",
-      "votes": 4,
-      "bio": "Cursed pharaoh wrapped in decay-inducing bandages.",
-      "attributes": ["Sandstorm", "Curse of the Tomb"],
-      "image": "🏺"
-    }
-  ],
-  "locations": [
-    {
-      "id": "loc-1",
-      "name": "Haunted Graveyard",
-      "hazard": "Fog of Despair: Reduces vision to 5 feet.",
-      "status": "Approved"
-    },
-    {
-      "id": "loc-2",
-      "name": "Abandoned Laboratory",
-      "hazard": "Exposed Wiring: Periodic lightning strikes every 30 seconds.",
-      "status": "Approved"
-    }
+  "bench": [
+    { "id": "b1", "name": "A Jack-o'-Lantern", "description": "Bench Alternate" },
+    { "id": "b2", "name": "A Swamp Monster", "description": "Bench Alternate" },
+    { "id": "b3", "name": "A Headless Nun", "description": "Bench Alternate" },
+    { "id": "b4", "name": "A Zombie Pirate", "description": "Bench Alternate" },
+    { "id": "b5", "name": "The Loch Ness Monster", "description": "Bench Alternate" },
+    { "id": "b6", "name": "Bear 89", "description": "Bench Alternate" },
+    { "id": "b7", "name": "A Sentient Blender", "description": "Bench Alternate" },
+    { "id": "b8", "name": "Aka Manto", "description": "Bench Alternate" },
+    { "id": "b9", "name": "A Gargoyle", "description": "Bench Alternate" },
+    { "id": "b10", "name": "A Lawn Gnome", "description": "Bench Alternate" },
+    { "id": "b11", "name": "Vigo the Carpathian", "description": "Bench Alternate" },
+    { "id": "b12", "name": "A Vampire Hunter", "description": "Bench Alternate" },
+    { "id": "b13", "name": "Zeus", "description": "Bench Alternate" },
+    { "id": "b14", "name": "A Borg", "description": "Bench Alternate" },
+    { "id": "b15", "name": "A Chupacabra", "description": "Bench Alternate" },
+    { "id": "b16", "name": "A Shadow Creature", "description": "Bench Alternate" }
   ]
 }
